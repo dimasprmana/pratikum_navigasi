@@ -1,16 +1,8 @@
-# navigasi
+Nama : dimas permana
+kelas : 2A TRPL
+Nim : 362358302004
 
-A new Flutter project.
+![navigasi 2](https://github.com/user-attachments/assets/bd31a1cc-101e-419b-8ebc-cfbe2f0ef139)
 
-## Getting Started
+![navigasi 1](https://github.com/user-attachments/assets/9d687aba-e119-4432-ab24-e681d01d0d90)
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
