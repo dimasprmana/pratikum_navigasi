@@ -6,30 +6,30 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     final List<Item> items = [
       Item(
-        name: 'Sabun',
+        name: 'Lego',
         price: 30000,
-        imageUrl: 'https://down-id.img.susercontent.com/file/id-11134201-7r98o-lukhohp17gan54',
+        imageUrl: 'https://www.lego.com/cdn/cs/set/assets/blt0254ea3dce736ea0/10305.png',
         stock: 20,
         rating: 8.5,
       ),
       Item(
-        name: 'Sampo',
-        price: 15000,
-        imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZeHPooeJkA4X9bvISt9L9ESGJBWMqfvXWKw&s',
+        name: 'Hotwheels',
+        price: 35000,
+        imageUrl: 'https://img.ws.mms.shopee.co.id/id-11134207-7r98x-luoo568rwp6y54',
         stock: 15,
         rating: 7.5,
       ),
       Item(
-        name: 'Sikat Gigi',
-        price: 15000,
-        imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWai3arlWX1coz1zIpCKyOEtntsZZ91zgDsw&s',
+        name: 'Robot Transformer',
+        price: 25000,
+        imageUrl: 'https://images.tokopedia.net/img/cache/700/VqbcmM/2022/3/3/3762e67a-0e7d-4267-a98e-f73c62e4b4b4.png',
         stock: 20,
         rating: 8.5,
       ),
       Item(
-        name: 'Pasta Gigi',
-        price: 17000,
-        imageUrl: 'https://images.tokopedia.net/img/cache/700/VqbcmM/2023/3/9/4889f362-5cc7-4bcc-a1dc-8f7df2933d0c.jpg',
+        name: 'Mobil Remot',
+        price: 20000,
+        imageUrl: 'https://images.tokopedia.net/img/JFrBQq/2022/5/11/aed35318-6f1f-48c2-aca2-85d40ef54df6.jpg',
         stock: 15,
         rating: 8.5,
       ),
@@ -37,12 +37,12 @@ class HomePage extends StatelessWidget {
 
     return Scaffold(
         appBar: AppBar(
-          title: Text("List Barang"),
+          title: Text("List Mainan Anak-Anak"),
         ),
         body: GridView.builder(
           gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-            crossAxisCount: 2, // Jumlah kolom
-            childAspectRatio: 0.7, // Rasio lebar terhadap tinggi
+            crossAxisCount: 2, 
+            childAspectRatio: 0.7, 
             crossAxisSpacing: 8,
             mainAxisSpacing: 8,
           ),
@@ -90,7 +90,7 @@ class HomePage extends StatelessWidget {
         bottomNavigationBar: Container(
             padding: EdgeInsets.all(16),
             child: Text('Nama:Dimas Permana, NIM: 362358302004'),
-            ),
+            ), 
         );
     }
 }
