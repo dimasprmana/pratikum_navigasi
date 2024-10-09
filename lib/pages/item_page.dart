@@ -4,9 +4,7 @@ import '../models/item.dart';
 class ItemPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    // Ambil argumen item yang diteruskan dari HomePage
     final Item item = ModalRoute.of(context)!.settings.arguments as Item;
-
     return Scaffold(
         appBar: AppBar(
           title: Text(item.name),
@@ -17,7 +15,7 @@ class ItemPage extends StatelessWidget {
               children: [
                 Hero(
                   tag: item.name,
-                  child: Image.network(item.imageUrl), // Gambar item
+                  child: Image.network(item.imageUrl),
                 ),
                 Text('Price: Rp ${item.price}'),
                 Text('Stock: ${item.stock}'),
